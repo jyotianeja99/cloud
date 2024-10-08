@@ -1,2 +1,2 @@
 # cloud
-Feign client demo.
+Feign client demo. The pom dependencies needed and the application properties to be set.
