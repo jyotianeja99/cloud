@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: API-GATEWAY-SERVICE
+  cloud:
+    gateway:
+      routes:
+        - id: DEMO-SERVICE
+          uri: http://localhost:8090
+          predicates:
+            - Path=/demo/**
+      enabled: true
+
+server:
+  port: 8085
